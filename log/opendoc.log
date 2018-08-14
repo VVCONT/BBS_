@@ -1,0 +1,68 @@
+2018-08-14 14:43:11.959 - INFO  [           main] amework.boot.StartupInfoLogger : 
+Starting SpringboostApplication on Thorn with PID 4716 (D:\jian\project_\web\training\springboost\target\classes started by 72705 in D:\jian\project_\web\training\springboost)
+2018-08-14 14:43:12.023 - INFO  [           main] amework.boot.SpringApplication : 
+The following profiles are active: dev
+2018-08-14 14:43:12.205 - INFO  [           main] ort.AbstractApplicationContext : 
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@274b3fc6: startup date [Tue Aug 14 14:43:12 CST 2018]; root of context hierarchy
+2018-08-14 14:43:15.906 - INFO  [           main] mbedded.tomcat.TomcatWebServer : 
+Tomcat initialized with port(s): 8080 (http)
+2018-08-14 14:43:15.961 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-14 14:43:15.980 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Starting service [Tomcat]
+2018-08-14 14:43:15.980 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-14 14:43:15.989 - INFO  [ost-startStop-1] ache.juli.logging.DirectJDKLog : 
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle\product\12.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_131\bin;"C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin";"C:\Program Files\Java\jdk1.8.0_131\lib;C:\Program Files\Java\jdk1.8.0_131\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_131\lib\tools.jar";D:\Program Files\maven\bin;D:\Program Files\mysql-5.6.35-winx64\bin;D:\Program Files\Git\cmd;C:\Users\72705\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Bandzip\;.]
+2018-08-14 14:43:16.344 - INFO  [ost-startStop-1] ache.juli.logging.DirectJDKLog : 
+Initializing Spring embedded WebApplicationContext
+2018-08-14 14:43:16.344 - INFO  [ost-startStop-1] letWebServerApplicationContext : 
+Root WebApplicationContext: initialization completed in 4139 ms
+2018-08-14 14:43:16.472 - INFO  [ost-startStop-1] ervlet.ServletRegistrationBean : 
+Servlet dispatcherServlet mapped to [/]
+2018-08-14 14:43:16.489 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 14:43:16.490 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 14:43:16.491 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 14:43:16.491 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 14:43:17.564 - INFO  [           main] dler.AbstractUrlHandlerMapping : 
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 14:43:18.364 - INFO  [           main] n.RequestMappingHandlerAdapter : 
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@274b3fc6: startup date [Tue Aug 14 14:43:12 CST 2018]; root of context hierarchy
+2018-08-14 14:43:18.616 - INFO  [           main] rMethodMapping$MappingRegistry : 
+Mapped "{[/home],methods=[POST]}" onto public java.lang.String com.thorn.springboost.controller.test.index(java.lang.String)
+2018-08-14 14:43:18.618 - INFO  [           main] rMethodMapping$MappingRegistry : 
+Mapped "{[/get],methods=[POST]}" onto public java.lang.String com.thorn.springboost.controller.test.get(com.thorn.springboost.model.user)
+2018-08-14 14:43:18.625 - INFO  [           main] rMethodMapping$MappingRegistry : 
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 14:43:18.627 - INFO  [           main] rMethodMapping$MappingRegistry : 
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 14:43:18.668 - INFO  [           main] dler.AbstractUrlHandlerMapping : 
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 14:43:18.669 - INFO  [           main] dler.AbstractUrlHandlerMapping : 
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 14:43:18.844 - INFO  [           main] vlet.WelcomePageHandlerMapping : 
+Adding welcome page template: index
+2018-08-14 14:43:19.154 - INFO  [           main] ework.jmx.export.MBeanExporter : 
+Registering beans for JMX exposure on startup
+2018-08-14 14:43:19.157 - INFO  [           main] ework.jmx.export.MBeanExporter : 
+Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 14:43:19.165 - INFO  [           main] ework.jmx.export.MBeanExporter : 
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-14 14:43:19.184 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Starting ProtocolHandler ["http-nio-8080"]
+2018-08-14 14:43:19.230 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Using a shared selector for servlet write/read
+2018-08-14 14:43:19.264 - INFO  [           main] mbedded.tomcat.TomcatWebServer : 
+Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-14 14:43:19.275 - INFO  [           main] amework.boot.StartupInfoLogger : 
+Started SpringboostApplication in 8.773 seconds (JVM running for 38.626)
+2018-08-14 14:43:23.282 - INFO  [nio-8080-exec-1] ache.juli.logging.DirectJDKLog : 
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-14 14:43:23.283 - INFO  [nio-8080-exec-1] k.web.servlet.FrameworkServlet : 
+FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-14 14:43:23.320 - INFO  [nio-8080-exec-1] k.web.servlet.FrameworkServlet : 
+FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
