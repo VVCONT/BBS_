@@ -66,3 +66,203 @@ Initializing Spring FrameworkServlet 'dispatcherServlet'
 FrameworkServlet 'dispatcherServlet': initialization started
 2018-08-14 14:43:23.320 - INFO  [nio-8080-exec-1] k.web.servlet.FrameworkServlet : 
 FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+2018-08-14 16:26:37.883 - INFO  [           main] amework.boot.StartupInfoLogger : 
+Starting SpringboostApplication on Thorn with PID 1728 (D:\jian\project_\web\training\springboost\target\classes started by 72705 in D:\jian\project_\web\training\springboost)
+2018-08-14 16:26:37.892 - INFO  [           main] amework.boot.SpringApplication : 
+The following profiles are active: dev
+2018-08-14 16:26:37.968 - INFO  [           main] ort.AbstractApplicationContext : 
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3b1bb3ab: startup date [Tue Aug 14 16:26:37 CST 2018]; root of context hierarchy
+2018-08-14 16:26:40.688 - INFO  [           main] mbedded.tomcat.TomcatWebServer : 
+Tomcat initialized with port(s): 8080 (http)
+2018-08-14 16:26:40.713 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-14 16:26:40.727 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Starting service [Tomcat]
+2018-08-14 16:26:40.728 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-14 16:26:40.734 - INFO  [ost-startStop-1] ache.juli.logging.DirectJDKLog : 
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle\product\12.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_131\bin;"C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin";"C:\Program Files\Java\jdk1.8.0_131\lib;C:\Program Files\Java\jdk1.8.0_131\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_131\lib\tools.jar";D:\Program Files\maven\bin;D:\Program Files\mysql-5.6.35-winx64\bin;D:\Program Files\Git\cmd;C:\Users\72705\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Bandzip\;.]
+2018-08-14 16:26:40.927 - INFO  [ost-startStop-1] ache.juli.logging.DirectJDKLog : 
+Initializing Spring embedded WebApplicationContext
+2018-08-14 16:26:40.928 - INFO  [ost-startStop-1] letWebServerApplicationContext : 
+Root WebApplicationContext: initialization completed in 2960 ms
+2018-08-14 16:26:41.062 - INFO  [ost-startStop-1] ervlet.ServletRegistrationBean : 
+Servlet dispatcherServlet mapped to [/]
+2018-08-14 16:26:41.068 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 16:26:41.069 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 16:26:41.069 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 16:26:41.069 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 16:31:38.564 - INFO  [           main] amework.boot.StartupInfoLogger : 
+Starting SpringboostApplication on Thorn with PID 8956 (D:\jian\project_\web\training\springboost\target\classes started by 72705 in D:\jian\project_\web\training\springboost)
+2018-08-14 16:31:38.586 - INFO  [           main] amework.boot.SpringApplication : 
+The following profiles are active: dev
+2018-08-14 16:31:38.689 - INFO  [           main] ort.AbstractApplicationContext : 
+Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5a4bef8: startup date [Tue Aug 14 16:31:38 CST 2018]; root of context hierarchy
+2018-08-14 16:31:40.871 - INFO  [           main] mbedded.tomcat.TomcatWebServer : 
+Tomcat initialized with port(s): 8080 (http)
+2018-08-14 16:31:40.891 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-14 16:31:40.903 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Starting service [Tomcat]
+2018-08-14 16:31:40.904 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-14 16:31:40.910 - INFO  [ost-startStop-1] ache.juli.logging.DirectJDKLog : 
+The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\oracle\product\12.2.0\dbhome_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_131\bin;"C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin";"C:\Program Files\Java\jdk1.8.0_131\lib;C:\Program Files\Java\jdk1.8.0_131\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_131\lib\tools.jar";D:\Program Files\maven\bin;D:\Program Files\mysql-5.6.35-winx64\bin;D:\Program Files\Git\cmd;C:\Users\72705\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Bandzip\;.]
+2018-08-14 16:31:41.070 - INFO  [ost-startStop-1] ache.juli.logging.DirectJDKLog : 
+Initializing Spring embedded WebApplicationContext
+2018-08-14 16:31:41.070 - INFO  [ost-startStop-1] letWebServerApplicationContext : 
+Root WebApplicationContext: initialization completed in 2381 ms
+2018-08-14 16:31:41.239 - INFO  [ost-startStop-1] ervlet.ServletRegistrationBean : 
+Servlet dispatcherServlet mapped to [/]
+2018-08-14 16:31:41.256 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-14 16:31:41.257 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-14 16:31:41.258 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-14 16:31:41.258 - INFO  [ost-startStop-1] AbstractFilterRegistrationBean : 
+Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-14 16:31:41.899 - INFO  [           main] dler.AbstractUrlHandlerMapping : 
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:31:42.201 - INFO  [           main] n.RequestMappingHandlerAdapter : 
+Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5a4bef8: startup date [Tue Aug 14 16:31:38 CST 2018]; root of context hierarchy
+2018-08-14 16:31:42.286 - INFO  [           main] rMethodMapping$MappingRegistry : 
+Mapped "{[/home],methods=[POST]}" onto public java.lang.String com.thorn.springboost.controller.test.index(java.lang.String)
+2018-08-14 16:31:42.287 - INFO  [           main] rMethodMapping$MappingRegistry : 
+Mapped "{[/get],methods=[POST]}" onto public java.lang.String com.thorn.springboost.controller.test.get(com.thorn.springboost.model.user)
+2018-08-14 16:31:42.291 - INFO  [           main] rMethodMapping$MappingRegistry : 
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 16:31:42.292 - INFO  [           main] rMethodMapping$MappingRegistry : 
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:31:42.327 - INFO  [           main] dler.AbstractUrlHandlerMapping : 
+Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:31:42.328 - INFO  [           main] dler.AbstractUrlHandlerMapping : 
+Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:31:42.492 - INFO  [           main] vlet.WelcomePageHandlerMapping : 
+Adding welcome page template: index
+2018-08-14 16:31:42.797 - INFO  [           main] ework.jmx.export.MBeanExporter : 
+Registering beans for JMX exposure on startup
+2018-08-14 16:31:42.799 - INFO  [           main] ework.jmx.export.MBeanExporter : 
+Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-08-14 16:31:42.808 - INFO  [           main] ework.jmx.export.MBeanExporter : 
+Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-08-14 16:31:42.823 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Starting ProtocolHandler ["http-nio-8080"]
+2018-08-14 16:31:42.843 - INFO  [           main] ache.juli.logging.DirectJDKLog : 
+Using a shared selector for servlet write/read
+2018-08-14 16:31:42.870 - INFO  [           main] mbedded.tomcat.TomcatWebServer : 
+Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-14 16:31:42.879 - INFO  [           main] amework.boot.StartupInfoLogger : 
+Started SpringboostApplication in 5.032 seconds (JVM running for 12.684)
+2018-08-14 16:32:26.563 - INFO  [nio-8080-exec-1] ache.juli.logging.DirectJDKLog : 
+Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-14 16:32:26.563 - INFO  [nio-8080-exec-1] k.web.servlet.FrameworkServlet : 
+FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-14 16:32:26.595 - INFO  [nio-8080-exec-1] k.web.servlet.FrameworkServlet : 
+FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+2018-08-14 16:32:34.854 - INFO  [nio-8080-exec-2] ache.juli.logging.DirectJDKLog : 
+A cookie header was received [ja] that contained an invalid cookie. That cookie will be ignored.Note: further occurrences of this error will be logged at DEBUG level.
+2018-08-14 16:32:34.865 - WARN  [nio-8080-exec-2] efaultHandlerExceptionResolver : 
+Request method 'GET' not supported
+2018-08-14 16:32:52.376 - WARN  [nio-8080-exec-3] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:32:52.387 - WARN  [nio-8080-exec-3] efaultHandlerExceptionResolver : 
+Request method 'GET' not supported
+2018-08-14 16:33:06.174 - WARN  [nio-8080-exec-4] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:33:06.316 - WARN  [nio-8080-exec-4] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:33:06.375 - INFO  [nio-8080-exec-4] dler.AbstractUrlHandlerMapping : 
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:33:06.401 - INFO  [nio-8080-exec-4] rMethodMapping$MappingRegistry : 
+Mapped "{[/home],methods=[GET]}" onto public java.lang.String com.thorn.springboost.controller.test.index(java.lang.String)
+2018-08-14 16:33:06.403 - INFO  [nio-8080-exec-4] rMethodMapping$MappingRegistry : 
+Mapped "{[/get],methods=[POST]}" onto public java.lang.String com.thorn.springboost.controller.test.get(com.thorn.springboost.model.user)
+2018-08-14 16:33:06.412 - INFO  [nio-8080-exec-4] rMethodMapping$MappingRegistry : 
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 16:33:06.414 - INFO  [nio-8080-exec-4] rMethodMapping$MappingRegistry : 
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:33:47.556 - WARN  [nio-8080-exec-6] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:33:47.572 - WARN  [nio-8080-exec-6] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:33:47.625 - WARN  [nio-8080-exec-6] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:33:48.163 - INFO  [nio-8080-exec-6] dler.AbstractUrlHandlerMapping : 
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:33:48.169 - INFO  [nio-8080-exec-6] rMethodMapping$MappingRegistry : 
+Mapped "{[/home],methods=[GET]}" onto public java.lang.String com.thorn.springboost.controller.test.index()
+2018-08-14 16:33:48.170 - INFO  [nio-8080-exec-6] rMethodMapping$MappingRegistry : 
+Mapped "{[/get],methods=[POST]}" onto public java.lang.String com.thorn.springboost.controller.test.get(com.thorn.springboost.model.user)
+2018-08-14 16:33:48.175 - INFO  [nio-8080-exec-6] rMethodMapping$MappingRegistry : 
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 16:33:48.176 - INFO  [nio-8080-exec-6] rMethodMapping$MappingRegistry : 
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:34:33.794 - WARN  [nio-8080-exec-7] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:34:33.796 - WARN  [nio-8080-exec-7] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:34:33.814 - WARN  [nio-8080-exec-7] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:34:33.835 - WARN  [nio-8080-exec-7] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:34:34.085 - INFO  [nio-8080-exec-7] dler.AbstractUrlHandlerMapping : 
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:34:34.090 - INFO  [nio-8080-exec-7] rMethodMapping$MappingRegistry : 
+Mapped "{[/home],methods=[GET]}" onto public java.lang.String com.thorn.springboost.controller.test.index()
+2018-08-14 16:34:34.091 - INFO  [nio-8080-exec-7] rMethodMapping$MappingRegistry : 
+Mapped "{[/get],methods=[POST]}" onto public java.lang.String com.thorn.springboost.controller.test.get(com.thorn.springboost.model.user)
+2018-08-14 16:34:34.096 - INFO  [nio-8080-exec-7] rMethodMapping$MappingRegistry : 
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 16:34:34.099 - INFO  [nio-8080-exec-7] rMethodMapping$MappingRegistry : 
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:35:15.094 - WARN  [nio-8080-exec-8] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:35:15.099 - WARN  [nio-8080-exec-8] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:35:15.104 - WARN  [nio-8080-exec-8] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:35:15.117 - WARN  [nio-8080-exec-8] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:39:14.098 - WARN  [io-8080-exec-10] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:39:14.101 - WARN  [io-8080-exec-10] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:39:14.127 - WARN  [io-8080-exec-10] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:39:14.201 - WARN  [io-8080-exec-10] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:39:14.612 - INFO  [io-8080-exec-10] dler.AbstractUrlHandlerMapping : 
+Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-14 16:39:14.628 - INFO  [io-8080-exec-10] rMethodMapping$MappingRegistry : 
+Mapped "{[/home],methods=[GET]}" onto public java.lang.String com.thorn.springboost.controller.test.index()
+2018-08-14 16:39:14.630 - INFO  [io-8080-exec-10] rMethodMapping$MappingRegistry : 
+Mapped "{[/get],methods=[POST]}" onto public java.lang.String com.thorn.springboost.controller.test.get(com.thorn.springboost.model.user)
+2018-08-14 16:39:14.643 - INFO  [io-8080-exec-10] rMethodMapping$MappingRegistry : 
+Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-14 16:39:14.644 - INFO  [io-8080-exec-10] rMethodMapping$MappingRegistry : 
+Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-14 16:39:14.951 - INFO  [io-8080-exec-10] zaxxer.hikari.HikariDataSource : 
+HikariPool-1 - Starting...
+2018-08-14 16:39:16.066 - INFO  [io-8080-exec-10] zaxxer.hikari.HikariDataSource : 
+HikariPool-1 - Start completed.
+2018-08-14 16:39:16.505 - INFO  [io-8080-exec-10] rn.springboost.controller.test : 
+为他们
+2018-08-14 16:46:16.685 - WARN  [nio-8080-exec-2] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:46:16.687 - WARN  [nio-8080-exec-2] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:46:16.690 - WARN  [nio-8080-exec-2] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:46:16.694 - WARN  [nio-8080-exec-2] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:46:16.705 - WARN  [nio-8080-exec-2] .mapper.ClassPathMapperScanner : 
+No MyBatis mapper was found in '[com.thorn.springboost.dao]' package. Please check your configuration.
+2018-08-14 16:46:16.732 - INFO  [nio-8080-exec-2] rn.springboost.controller.test : 
+为他们
+2018-08-14 16:46:23.723 - INFO  [nio-8080-exec-3] rn.springboost.controller.test : 
+为他们

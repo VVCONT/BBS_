@@ -16,7 +16,7 @@
             <arg column="collectionnum" javaType="java.lang.Integer" jdbcType="INTEGER"/>
         </constructor>
     </resultMap>
-    <select id="findPost" resultMap="BaseResultMap">
+    <select id="findpost" resultMap="BaseResultMap">
         select * from post   where title
         LIKE "%"#{arg0}"%" order by posttime desc limit #{arg1},10
     </select>
